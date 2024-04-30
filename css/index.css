@@ -1,0 +1,484 @@
+body,
+html {
+  cursor: url("../icon/cursor32.png"), auto;
+}
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 60px;
+  margin-top: 5vw;
+  margin-left: 47vw;
+  aspect-ratio: 4;
+  --c: #000 90%, #0000;
+  background: radial-gradient(circle closest-side at left 6px top 50%, var(--c)),
+    radial-gradient(circle closest-side, var(--c)),
+    radial-gradient(circle closest-side at right 6px top 50%, var(--c));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  animation: l4 1s infinite alternate;
+}
+@keyframes l4 {
+  to {
+    width: 25px;
+    aspect-ratio: 1;
+  }
+}
+h1 {
+  color: black;
+  font-family: "helvetiva", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-size: 80px;
+  line-height: 70px;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+h3 {
+  color: black;
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 1.2vw;
+  line-height: 70px;
+  text-align: center;
+}
+.p1 {
+  color: black;
+  opacity: 50%;
+  font-family: "helvetica", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 8px;
+  word-spacing: 3px;
+  font-size: 1vw;
+  text-align: center;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.p2 {
+  color: black;
+  opacity: 50%;
+  font-family: "helvetica", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 8px;
+  word-spacing: 3px;
+  font-size: 1vw;
+  text-align: left;
+  margin-left: -15vw;
+  margin-top: 5vw;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.text-video {
+  color: black;
+  font-family: "helvetica", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 35px;
+  line-height: 40px;
+  text-align: left;
+  margin-left: -15vw;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.text-project {
+  color: black;
+  opacity: 50%;
+  font-family: "helvetica", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 8px;
+  word-spacing: 3px;
+  font-size: 1vw;
+  text-align: left;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.text-project2 {
+  color: black;
+  font-family: "helvetica", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: left;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.text-person {
+  color: black;
+  font-family: "helvetica", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 35px;
+  line-height: 40px;
+  text-align: center;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.text-person2 {
+  color: black;
+  opacity: 50%;
+  font-family: "helvetica", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.text-project3 {
+  color: black;
+  opacity: 50%;
+  font-family: "helvetica", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 20px;
+  line-height: 25px;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.text-contact {
+  color: black;
+  font-family: "helvetica", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 35px;
+  line-height: 40px;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.text-contact2 {
+  color: black;
+  font-family: "helvetica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 25px;
+  line-height: 40px;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.p-contact {
+  color: black;
+  opacity: 50%;
+  font-family: "helvetica", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 8px;
+  word-spacing: 3px;
+  font-size: 1vw;
+  margin-top: 3vw;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.text {
+  color: black;
+  font-size: 1vw;
+  font-weight: 300;
+  letter-spacing: 2px;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.text-footer {
+  color: black;
+  opacity: 70%;
+  font-family: "helvetica", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 3vw;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.text-footer1 {
+  color: black;
+  opacity: 70%;
+  font-family: "helvetica", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 20px;
+  line-height: 25px;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.text-footer2 {
+  color: black;
+  opacity: 70%;
+  font-family: "helvetica", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 15px;
+  line-height: 25px;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.text-need {
+  color: black;
+  opacity: 70%;
+  font-family: "helvetica", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 35px;
+  line-height: 40px;
+  text-decoration: underline;
+  text-align: center;
+  margin-left: 37vw;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.text-need:hover {
+  color: black;
+  opacity: 100%;
+  font-family: "helvetica", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 35px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+.text-bottom {
+  color: black;
+  opacity: 50%;
+  font-family: "helvetica", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 15px;
+  line-height: 40px;
+  text-decoration: underline;
+  margin-top: -1vw;
+  text-align: center;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.text-bottom:hover {
+  color: black;
+  opacity: 100%;
+  font-family: "helvetica", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 15px;
+  line-height: 40px;
+  text-decoration: underline;
+}
+
+.w-100 {
+  cursor: url("../icon/cursor20.png"), auto;
+}
+
+.footer {
+  background-color: whitesmoke;
+  height: 35vw;
+  margin-top: 5vw;
+}
+.icon {
+  float: left;
+  position: sticky;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.gallery {
+  width: 20vw;
+  height: 20vw;
+  overflow: scroll;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.gallery div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+  flex: none;
+}
+.gallery div img {
+  width: 100%;
+}
+.gallery::-webkit-scrollbar {
+  display: none;
+}
+.gallery-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% auto;
+}
+#backBtn,
+#nextBtn {
+  width: 10vw;
+  cursor: pointer;
+  margin: 20vw;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  max-width: 100vw;
+  width: 100%;
+  position: relative;
+}
+.wrapper i {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active {
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child {
+  left: -22px;
+}
+.wrapper i:last-child {
+  right: -22px;
+}
+.wrapper .carousel {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 10px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+.carousel :where(.card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card {
+  scroll-snap-align: start;
+  height: 25vw;
+  width: 30vw;
+  list-style: none;
+  background: #fff;
+  cursor: pointer;
+  flex-direction: column;
+}
+.card .img img {
+  width: 30vw;
+  height: 25vw;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 20vw;
+  height: 25vw;
+  transition: 0.3s ease;
+  backface-visibility: hidden;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+.image:hover {
+  opacity: 0.5;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card:hover .image {
+  opacity: 0.3;
+}
+
+.card:hover .middle {
+  opacity: 1;
+}
+
+.project {
+  opacity: 1;
+  display: block;
+  width: 30vw;
+  height: 30vw;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  cursor: url("../icon/cursor20.png"), auto;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card:hover .project {
+  opacity: 0.3;
+}
+
+.card:hover .middle {
+  opacity: 1;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  color: white;
+  text-align: left;
+  z-index: 100;
+}
